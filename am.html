@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shameem | Portfolio</title>  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #00f2ff;
+    }
+
+    header p {
+      opacity: 0.7;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background: #00f2ff;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.6;
+    }
+  </style></head>
+<body>  <header>
+    <h1>Shameem Ahmad⚡</h1>
+    <p>Tech Enthusiast | Telegram Bot Developer | Learner</p>
+  </header>  <div class="container"><div class="card">
+  <h2>About Me</h2>
+  <p>I am from Uttar Pradesh. I am 15 years old and have recently given my Class 10th exams. People often think I look around 20 😄.<br><br>
+  I have studied at Rd Memorial School and Loyal Wonder School, and currently I am studying at Faujdaar Inter College.</p>
+</div>
+
+<div class="card">
+  <h2>Skills</h2>
+  <p>HTML, CSS, JavaScript, Python, API Integration</p>
+</div>
+
+<div class="card">
+  <h2>Projects</h2>
+  <p>• Telegram Bots<br>• Automation Tools<br>• Web Projects</p>
+</div>
+
+<div class="card">
+  <h2>Contact</h2>
+  <a href="https://www.instagram.com/shameem_62x?igsh=MW5penNseXJ4eGUyZw==" class="btn">InstaGram</a>
+</div>
+
+  </div>  <footer>
+    © 2026 Shameem | All Rights Reserved | Shameem Pvt Ltd
+  </footer>  <script>
+    // Simple animation effect
+    document.querySelectorAll('.card').forEach((card, index) => {
+      card.style.opacity = 0;
+      setTimeout(() => {
+        card.style.transition = "0.5s";
+        card.style.opacity = 1;
+      }, index * 200);
+    });
+  </script></body>
+</html>
